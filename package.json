@@ -1,0 +1,26 @@
+{
+  "name": "library-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js",
+    "test:tag": "npx cucumber-js --tags @lib-01",
+    "Mac-open:report": "open test-reports/cucumber-report.html",
+    "Windows-open:report": "start test-reports/cucumber-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^20.16.2",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/cucumber": "^7.0.0"
+  }
+}
